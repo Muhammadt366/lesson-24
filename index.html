@@ -24,7 +24,7 @@
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-           
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
        </div>
     </nav>
@@ -66,7 +66,54 @@
         </div>
     </div>
 </section>
-    
+<section class="py-5" style="background-color: rgb(231, 243, 178);" id="projects">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">My Projects</h2>
+        <div class="row g-3 ">
+            <div class="col-md-4 "><button class="btn btn-outline-primary w-100 py-3" data-proj="snake game">🐍
+                🐍snake game i made it with AI</button></div>
+            <div class="col-md-4"><button class="btn btn-outline-primary w-100 py-3" data-proj="Math Quiz">
+                🔫 shooter game also made it with AI  </button></div>
+         
+        </div> 
+        <div class="alert alert-info mt-4 d-none" id="projectAlert"></div>
+    </div>
 </section>
+<section class="py-5 text-center" style="background-color: rgb(171, 226, 171);" id="contact">
+<div class="container">
+    <h2 class="fw-bold mb-4">Contact Me</h2>
+   <div class="d-flex justify-content-center gap-3">
+<div class="col-md-6">
+ 
+    <section class="py-5" style="background-color: rgb(236, 190, 201);" id="contact">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="contactForm" action=" YOUR_FORMSPREE_URL " method="POST">
+                        <input class="form-control mb-3" name="name" placeholder="Your name" required>
+                        <input class="form-control mb-3" name="email" type="email" placeholder="Your email" required>
+                        <textarea class="form-control mb-3" name="message" rows="3" placeholder="Your message"
+                            required></textarea>
+                        <button class="btn btn-success w-100 fw-bold" type="submit">Send Message ✉️</button>
+                    </form>
+                    <div class="alert alert-success mt-3 d-none" id="sentOk">Message sent ✅</div>
+                    <div class="alert alert-danger mt-3 d-none" id="sentFail">Oops! Try again ❌</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
+
+
+
+
+</section>
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p class="mb-0">© 2026 Muhammad's Portfolio.</p>
+    </div>
+
 </body>
 </html>
